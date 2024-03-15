@@ -8,6 +8,8 @@ const arr = [
   {id: 3, title: 'Cook dinner', completed: false}
 ]
 
+
+
 function App() {
   const [tasks, setTasks] = useState(arr)
   const handleTaskChange = (id) => {
