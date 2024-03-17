@@ -1,4 +1,3 @@
-
 import {Task} from './Task';
 import './ListTask.css';
 
@@ -18,8 +17,7 @@ export function ListTask({tasks, handleTaskChange}) {
 					<hr/>
 					<p>
 						{/*	array --> recibe cada tarea --> condición --->*/}
-
-						{tasks.filter(tasks => tasks.completed).length} task(s) completed
+						{tasks.filter(tasks => tasks.completed).length} completed / {tasks.filter(tasks => !tasks.completed).length} pending task(s)
 					</p>
 			</div>
 		</>

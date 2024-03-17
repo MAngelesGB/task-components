@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    width: 300px;
-    height: 250px;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: 40vh;
     padding: 15px;
-    background-color:  #f0f0f0;
+    background-color:  #fff;
     color: black;
     border-radius: 15px;
 }
@@ -26,15 +26,27 @@ p{
 ul{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 li{
+    display: flex;
+    flex-direction: row;
     list-style: none;
     align-items: center;
     text-align: left;
+    background-color: #EBEDEF;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+li:last-child{
+    margin-bottom: 0;
 }
 
 hr{
     width: 100%;
-    border: 1px solid #000;
+    border: 0.5px solid #AEB6BF;
+    margin: 10px 0;
 }
